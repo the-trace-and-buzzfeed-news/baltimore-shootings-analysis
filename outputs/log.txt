@@ -1,0 +1,155 @@
+Number of shooting cases in 12-month period ending 2015-04-19:
+
+498.0
+
+---
+Number of shooting cases in 12-month period ending 2016-04-19:
+
+839.0
+
+---
+Closure rate for cases from April 20, 2015 through end of 2015:
+
+0.253
+
+---
+Cases from 2015 and 2016 marked 'OPEN', as of mid-2017:
+
+1146
+
+---
+Number of distinct case numbers:
+
+3479
+
+---
+Earliest case date:
+
+2012-01-01
+
+---
+Latest case date:
+
+2017-07-26
+
+---
+Proportion of cases with a named suspect:
+
+0.354
+
+---
+Proportion of victims by victim type:
+
+NON FATAL SHOOTING    0.69
+HOMICIDE SHOOTING     0.31
+Name: VICT_TYPE, dtype: float64
+
+---
+Proportion of suspects by victim type:
+
+NON FATAL SHOOTING               0.642
+HOMICIDE                         0.294
+HOMICIDE + NON FATAL SHOOTING    0.064
+Name: case_vict_type_generic, dtype: float64
+
+---
+Proportion of victims by race:
+
+BLACK       0.946
+WHITE       0.037
+HISPANIC    0.010
+OTHER       0.004
+UNKNOWN     0.001
+ASIAN       0.001
+Name: RACE, dtype: float64
+
+---
+Number of people connected to multiple cases:
+
+434
+
+---
+Number of shootings (unique_case_numbers) connected by a common victim/suspect:
+
+CASE_NUMBER    826
+dtype: int64
+
+---
+Number of groups of connected shootings:
+
+333
+
+---
+Connected-shooting groups, by distinct victim types:
+
+(HOMICIDE SHOOTING, NON FATAL SHOOTING)    209
+(NON FATAL SHOOTING,)                      101
+(HOMICIDE SHOOTING,)                        23
+Name: VICT_TYPE, dtype: int64
+
+---
+Connected-shooting groups, by distinct *highest-level* victim types:
+
+(HOMICIDE SHOOTING, NON FATAL SHOOTING)    200
+(NON FATAL SHOOTING,)                      101
+(HOMICIDE SHOOTING,)                        32
+Name: VICT_TYPE, dtype: int64
+
+---
+People listed as both victims and suspects:
+
+214
+
+---
+People listed as victims in multiple cases:
+
+171
+
+---
+Final victim type for persons shot in multiple incidents:
+
+NON FATAL SHOOTING    92
+HOMICIDE SHOOTING     79
+Name: VICT_TYPE, dtype: int64
+
+---
+Initial victim type for persons shot in multiple incidents:
+
+NON FATAL SHOOTING    171
+Name: VICT_TYPE, dtype: int64
+
+---
+People listed as suspects in multiple cases:
+
+87
+
+---
+Victim counts for cases with multiple-case suspects:
+
+NON FATAL SHOOTING    137
+HOMICIDE SHOOTING      88
+Name: VICT_TYPE, dtype: int64
+
+---
+Demographic groupings of mulitply-involved persons:
+
+RACE          SEX  BLACK  WHITE
+age_group                      
+ <18         MALE     14      0
+ 18–27     FEMALE      3      1
+ 18–27       MALE    282      2
+ 28-37     FEMALE      1      0
+ 28-37       MALE    110      1
+ 38+         MALE     19      1
+
+---
+Proportion of *case connections* that are multi-district:
+
+0.426
+
+---
+Proportion of *connected cases* that have at least one out-of-district connection:
+
+0.469
+
+---
