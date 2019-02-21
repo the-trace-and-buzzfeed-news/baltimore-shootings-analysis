@@ -99,6 +99,10 @@ The `notebooks/analyze-baltimore-shootings.ipynb` notebook, written in Python, t
 - Calculates the demographic groupings of mulitply-involved persons
 - Maps and spatially analyzes cases connected by a common victim/suspect
 
+## Data Disclaimer
+
+The data in this repository is based on raw data that the Baltimore Police Department provided to The Trace and BuzzFeed News in response to a public records request. We have carefully checked the accuracy of our analysis, and shared our findings with the Baltimore Police Department and numerous experts in the law enforcement field prior to publication. We are sharing our data, methodology, and code in order to support further research and reporting on gun violence. However, users of this data may wish to independently verify the accuracy of their findings prior to making them public, as The Trace and Buzzfeed make no representations or warranties as to any third party use of this data.
+
 ## Licensing
 
 All code in this repository is available under the [MIT License](https://opensource.org/licenses/MIT). All the incident and address data files are available under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0) license. The police district shapefile data is [published by the City of Baltimore](http://gis-baltimore.opendata.arcgis.com/datasets/police-districts) with "no license specified".
