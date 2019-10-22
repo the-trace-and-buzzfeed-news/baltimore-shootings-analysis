@@ -6,21 +6,11 @@ name = "pypi"
 [packages]
 jupyter = "*"
 pandas = "*"
-jellyfish = "*"
-xlrd = "*"
 networkx = "*"
 nbexec = "*"
 matplotlib = "*"
-scipy = "*"
-pydot = "*"
-pygraphviz = "*"
-spectra = "*"
-namestand = "*"
-scikit-learn = "*"
-statsmodels = "*"
 geopandas = "*"
 rtree = "*"
 descartes = "*"
-plat = {editable = true, path = "/Users/jeremysinger-vine/annex/personal/projects/plat"}
 
 [dev-packages]
